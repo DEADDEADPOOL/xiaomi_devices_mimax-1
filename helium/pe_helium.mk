@@ -45,4 +45,4 @@ BUILD_FINGERPRINT := Xiaomi/helium/helium:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/rel
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Rohit"
 
-_BUILD_TYPE="Shishufied"
+PE_BUILD_TYPE="Official"
