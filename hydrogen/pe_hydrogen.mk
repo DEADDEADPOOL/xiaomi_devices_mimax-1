@@ -23,13 +23,13 @@ $(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/pe/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := hydrogen
-PRODUCT_NAME := bootleg_hydrogen
+PRODUCT_NAME := pe_hydrogen
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
@@ -43,6 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Pranav Trivedi (pranavaryans)"
+    DEVICE_MAINTAINERS="Rohit"
 
-BOOTLEGGERS_BUILD_TYPE="Shishufied"
+CUSTOM_BUILD_TYPE="OFFICIAL"
