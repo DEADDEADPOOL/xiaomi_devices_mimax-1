@@ -43,6 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/helium/helium:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Pranav Trivedi (pranavaryans)"
+    DEVICE_MAINTAINERS="Rohit"
 
-BOOTLEGGERS_BUILD_TYPE="Shishufied"
+_BUILD_TYPE="Shishufied"
