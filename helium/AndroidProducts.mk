@@ -17,4 +17,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_helium.mk \
-    $(LOCAL_DIR)/bootleg_helium.mk
+    $(LOCAL_DIR)/pe_helium.mk
